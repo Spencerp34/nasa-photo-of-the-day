@@ -4,7 +4,8 @@ const title = (props) => {
     // console.log(props)
     return ( 
         <div>
-            <h3>Interstellar</h3>
+            <h2>{props.title}</h2>
+            <p>{props.explanation}</p>
         </div>
     )
 }

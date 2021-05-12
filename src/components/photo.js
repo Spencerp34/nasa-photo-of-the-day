@@ -1,13 +1,14 @@
 import React from 'react'
-import testPic from '../components/Black_hole.png'
+// import testPic from '../components/Black_hole.png'
+
 
 const photo = (props) => {
-    // console.log(props)
+    // console.log('hello', props.data)
     return ( 
         <div>
-            <h3>Testing Photo</h3>
-            <img src = {testPic} alt='test pic'/>
+            <img src = {props.photo} alt='test pic'/>
         </div>
+    
     )
 }
 
