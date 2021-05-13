@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from 'axios'
 import "./App.css";
+// import styled from 'styled-components'
 
 import Title from './components/title'
 import Photo from './components/photo'
@@ -28,7 +29,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
+      <Header/>
       <Photo photo={data.url} /> 
       <Title title={data.title} explanation={data.explanation} />
     </div>

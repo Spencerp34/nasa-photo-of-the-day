@@ -1,9 +1,15 @@
 import React from 'react'
+import styled from 'styled-components'
+
+const TitleH1 = styled.h1`
+    color: ${props => props.theme.primaryColor};
+
+`
 
 const test = () => {
-    return <h1>
+    return <TitleH1>
         NASA Photo of the Day!
-    </h1>
+    </TitleH1>
 }
 
 export default test;
